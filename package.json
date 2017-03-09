@@ -1,0 +1,37 @@
+{
+  "name": "katalogram",
+  "version": "1.0.0",
+  "description": "Katalogram Application",
+  "main": "dist/js/katalogram.js",
+  "scripts": {
+    "font": "fontmin src/fonts/* dist/fonts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rivaiamin@bitbucket.org/katalogram/katalogram.git"
+  },
+  "keywords": [
+    "penerbitan",
+	"crowdfunding",
+	"platform",
+	"publishing",
+	"book"
+  ],
+  "author": "KarsaKalana",
+  "license": "ISC",
+  "homepage": "https://katalogram.com",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "fontmin": "^0.9.2",
+    "gulp": "^3.9.0",
+	"gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-less": "^3.1.0",
+    "gulp-stylus": "^2.3.0",
+    "gulp-uglify": "^1.5.1",
+    "rename": "^1.0.3",
+    "require-dir": "^0.3.0"
+  }
+}
